@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Online Resume</title>
+        <style>
+            body {
+                background-color: black;
+                width: 900px;
+                margin: auto;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 18px;
+            }
+            .flex-container {
+                display: flex;
+                background-color: white;
+                background-size: cover;
+                padding: 20px;
+            }
+            #table-seminar{
+                border-collapse: separate;
+            }
+            .prof-pic {
+                border: 5px solid midnightblue;
+                border-radius: 50%;
+                display: block;
+                margin: auto;
+            }
+            h4 {
+                margin: 0;
+            }
+            .contact_pic {
+                width: 28px;
+                height: auto;
+                position: relative;
+                top: 7px;
+            }
+            .wing-left {
+                flex-basis: 960px;
+                margin-right: 25px;
+            }
+            .headers {
+                text-align: center;
+                background-color:midnightblue;
+                color: white;
+                padding: 5px 0;
+            }
+            .abt-me {
+                text-align: center;
+                font-size: 20px;
+                font-size: 18px;
+            }
+            .abt-me-head {
+                font-size: 20px;
+                margin-top: 15px 0 0 0;
+            }
+            .semi-td {
+                padding-bottom: 15px;
+                line-height: 1.5;
+            }
+            #contacs td {
+                font-size: 20px;
+            }
+            #contacts img {
+                margin-left: 50px;
+            }
+            #list-container {
+                display: flex;
+                justify-content: center;
+                font-size: 20px;
+            }
+            .name {
+                text-align: center;
+            }
+            .self-title {
+                font-size: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="wing wing-left">
+                <img src="https://lh3.googleusercontent.com/d/1XZ2SGpr6TqMBg6u9zFuqOex_Ns9zoENq=s220?authuser=0" alt="My Photo" class="prof-pic">
+                <hr>
+                <div class="abt-me">
+                    <p class="abt-me-head"><b>About Me</b></p>
+                    <p>Passionate in solving real-world problems with my coding skills. I think, therefore I am.</p>
+                </div>
+
+                <table id="contacts">
+                    <tr>
+                        <td>
+                            <img src="https://cdn-icons-png.flaticon.com/128/597/597177.png" alt="Phone#" class="contact_pic">
+                            +63996810986
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn-icons-png.flaticon.com/128/61/61109.png" alt="LinkedIn" class="contact_pic">
+                            <a href="https://ph.linkedin.com/in/kane-beringuela-75a3a3179">Kane Beringuela</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://cdn-icons-png.flaticon.com/128/9385/9385212.png" alt="Address" class="contact_pic">
+                            126-3, Abella St., Naga City
+                        </td>
+                    </tr>
+                </table>
+
+                <br>
+
+                <h4 class="headers">PROGRAMMING LANGUAGES</h4>
+                <div id="list-container">
+                    <ol>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>Python</li>
+                    </ol>
+                </div>
+
+
+                <h4 class="headers">EXPERTISE</h4>
+                <div id="list-container">
+                    <ul>
+                        <li>Critical Thinking</li>
+                        <li>Management Skills</li>
+                        <li>Creativity</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <div class="wing wing-right">
+                <div class="name">
+                    <h1>Kane Randy P. Beringuela</h1>
+                    <p class="self-title">Cybersecurity Specialist</p>
+                </div>
+
+                <table id="table-seminar">
+                    <th><h4 class="headers">SEMINARS</h4></th>
+                    <tr>
+                        <td class="semi-td">
+                            <b>Speed Protocol Processors</b><br>
+                            <i>May 7, 2023</i><br> 
+                            Through seminars, I've gained an understanding of high-speed data transfer protocols. 
+                            This knowledge is particularly applicable in the design and implementation of network gateways.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="semi-td">
+                            <b>DOS Attack</b><br>
+                            <i>October 6, 2023</i><br>
+                            I've acquired a deep understanding of DoS attacks, one of the prevalent cyber security 
+                            threats today. I've also learned effective strategies to mitigate such threats, enhancing 
+                            my skills in cyber security.
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="semi-td">
+                            <b>Biometrics in SECURE e-transaction</b><br>
+                            <i>May 15, 2023</i><br>
+                            I've developed a strong familiarity with biometric technologies, especially their application 
+                            in securing e-transactions. This knowledge positions me well for roles that require expertise 
+                            in secure digital transactions.
+                        </td>
+                    </tr>
+                </table>
+
+                <h4 class="headers">EDUCATION</h4>
+                <p><b>Ateneo de Naga University</b> <br>
+                    Bachelor of Science in Computer Science <br>
+                    2022 - 2026
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
