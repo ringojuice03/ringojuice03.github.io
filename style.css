@@ -1,0 +1,35 @@
+body {
+    background-color: lightslategrey;
+    font-family: 'Oswald';
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.submit-bt {
+    background-color: green;
+    color: aliceblue;
+}
+
+.reset-bt {
+    background-color: red;
+    color:beige;
+}
+
+.button input{
+    padding: 5px 15px;
+}
